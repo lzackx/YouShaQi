@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7F6911B20D8ECB900231396 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7F6911A20D8ECB900231396 /* MDConfig.plist */; };
+		A7F6912520D8ECB900231396 /* libYouShaQiDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7F6912420D8ECB900231396 /* libYouShaQiDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A7F6912A20D8ECB900231396 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F6912920D8ECB900231396 /* JavaScriptCore.framework */; };
+		A7F6912C20D8ECB900231396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F6912B20D8ECB900231396 /* Foundation.framework */; };
+		A7F6912E20D8ECB900231396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F6912D20D8ECB900231396 /* UIKit.framework */; };
+		A7F6913320D8ECB900231396 /* YouShaQiDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7F6913220D8ECB900231396 /* YouShaQiDylib.mm */; };
+		A7F6913620D8ECB900231396 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F6913520D8ECB900231396 /* MDConfigManager.h */; };
+		A7F6913820D8ECB900231396 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F6913720D8ECB900231396 /* MDConfigManager.m */; };
+		A7F6913A20D8ECB900231396 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F6913920D8ECB900231396 /* MDCycriptManager.h */; };
+		A7F6913C20D8ECB900231396 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F6913B20D8ECB900231396 /* MDCycriptManager.m */; };
+		A7F6913E20D8ECB900231396 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F6913D20D8ECB900231396 /* MDMethodTrace.h */; };
+		A7F6914020D8ECB900231396 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F6913F20D8ECB900231396 /* MDMethodTrace.m */; };
+		A7F6914220D8ECB900231396 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F6914120D8ECB900231396 /* ANYMethodLog.h */; };
+		A7F6914420D8ECB900231396 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F6914320D8ECB900231396 /* ANYMethodLog.m */; };
+		A7F6914720D8ECB900231396 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F6914620D8ECB900231396 /* LLDBTools.h */; };
+		A7F6914920D8ECB900231396 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7F6914820D8ECB900231396 /* LLDBTools.mm */; };
+		A7F6914E20D8ECB900231396 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F6914D20D8ECB900231396 /* AntiAntiDebug.m */; };
+		A7F6915120D8ECB900231396 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = A7F6915020D8ECB900231396 /* fishhook.c */; };
+		A7F6915320D8ECB900231396 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F6915220D8ECB900231396 /* fishhook.h */; };
+		A7F6915520D8ECB900231396 /* YouShaQiDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F6915420D8ECB900231396 /* YouShaQiDylib.h */; };
+		A7F6915720D8ECB900231396 /* YouShaQiDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F6915620D8ECB900231396 /* YouShaQiDylib.m */; };
+		A7F6916520D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7F6916420D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7F6912620D8ECB900231396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F6910720D8ECB900231396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F6912320D8ECB900231396;
+			remoteInfo = YouShaQiDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7F6910F20D8ECB900231396 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A7F6912520D8ECB900231396 /* libYouShaQiDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A7F6911220D8ECB900231396 /* YouShaQi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouShaQi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F6911520D8ECB900231396 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A7F6911620D8ECB900231396 /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
+		A7F6911820D8ECB900231396 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		A7F6911A20D8ECB900231396 /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		A7F6911D20D8ECB900231396 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		A7F6911E20D8ECB900231396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F6912420D8ECB900231396 /* libYouShaQiDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libYouShaQiDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F6912920D8ECB900231396 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A7F6912B20D8ECB900231396 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7F6912D20D8ECB900231396 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7F6913120D8ECB900231396 /* YouShaQiDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = YouShaQiDylib.xm; path = Logos/YouShaQiDylib.xm; sourceTree = "<group>"; };
+		A7F6913220D8ECB900231396 /* YouShaQiDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = YouShaQiDylib.mm; path = Logos/YouShaQiDylib.mm; sourceTree = "<group>"; };
+		A7F6913520D8ECB900231396 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		A7F6913720D8ECB900231396 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		A7F6913920D8ECB900231396 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		A7F6913B20D8ECB900231396 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		A7F6913D20D8ECB900231396 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		A7F6913F20D8ECB900231396 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		A7F6914120D8ECB900231396 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = Config/ANYMethodLog.h; sourceTree = "<group>"; };
+		A7F6914320D8ECB900231396 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = Config/ANYMethodLog.m; sourceTree = "<group>"; };
+		A7F6914620D8ECB900231396 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		A7F6914820D8ECB900231396 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		A7F6914B20D8ECB900231396 /* YouShaQiDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YouShaQiDylib-Prefix.pch"; sourceTree = "<group>"; };
+		A7F6914D20D8ECB900231396 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		A7F6915020D8ECB900231396 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		A7F6915220D8ECB900231396 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		A7F6915420D8ECB900231396 /* YouShaQiDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouShaQiDylib.h; sourceTree = "<group>"; };
+		A7F6915620D8ECB900231396 /* YouShaQiDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouShaQiDylib.m; sourceTree = "<group>"; };
+		A7F6916320D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "YouShaQiDylib+YouShaQiAppDelegate.xm"; path = "Logos/YouShaQiDylib+YouShaQiAppDelegate.xm"; sourceTree = "<group>"; };
+		A7F6916420D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "YouShaQiDylib+YouShaQiAppDelegate.mm"; path = "Logos/YouShaQiDylib+YouShaQiAppDelegate.mm"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F6910C20D8ECB900231396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F6912120D8ECB900231396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F6912A20D8ECB900231396 /* JavaScriptCore.framework in Frameworks */,
+				A7F6912E20D8ECB900231396 /* UIKit.framework in Frameworks */,
+				A7F6912C20D8ECB900231396 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F6910620D8ECB900231396 = {
+			isa = PBXGroup;
+			children = (
+				A7F6911420D8ECB900231396 /* YouShaQi */,
+				A7F6912F20D8ECB900231396 /* YouShaQiDylib */,
+				A7F6912820D8ECB900231396 /* Frameworks */,
+				A7F6911320D8ECB900231396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F6911320D8ECB900231396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6911220D8ECB900231396 /* YouShaQi.app */,
+				A7F6912420D8ECB900231396 /* libYouShaQiDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F6911420D8ECB900231396 /* YouShaQi */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6911520D8ECB900231396 /* icon.png */,
+				A7F6911620D8ECB900231396 /* Target.plist */,
+				A7F6911E20D8ECB900231396 /* Info.plist */,
+				A7F6911720D8ECB900231396 /* Scripts */,
+				A7F6911920D8ECB900231396 /* Config */,
+				A7F6911C20D8ECB900231396 /* TargetApp */,
+			);
+			path = YouShaQi;
+			sourceTree = "<group>";
+		};
+		A7F6911720D8ECB900231396 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6911820D8ECB900231396 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		A7F6911920D8ECB900231396 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6911A20D8ECB900231396 /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		A7F6911C20D8ECB900231396 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6911D20D8ECB900231396 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		A7F6912820D8ECB900231396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6912920D8ECB900231396 /* JavaScriptCore.framework */,
+				A7F6912B20D8ECB900231396 /* Foundation.framework */,
+				A7F6912D20D8ECB900231396 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7F6912F20D8ECB900231396 /* YouShaQiDylib */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6915420D8ECB900231396 /* YouShaQiDylib.h */,
+				A7F6915620D8ECB900231396 /* YouShaQiDylib.m */,
+				A7F6913020D8ECB900231396 /* Logos */,
+				A7F6913420D8ECB900231396 /* Config */,
+				A7F6914520D8ECB900231396 /* Tools */,
+				A7F6914C20D8ECB900231396 /* AntiAntiDebug */,
+				A7F6914F20D8ECB900231396 /* fishhook */,
+				A7F6914A20D8ECB900231396 /* Supporting Files */,
+			);
+			path = YouShaQiDylib;
+			sourceTree = "<group>";
+		};
+		A7F6913020D8ECB900231396 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6913120D8ECB900231396 /* YouShaQiDylib.xm */,
+				A7F6913220D8ECB900231396 /* YouShaQiDylib.mm */,
+				A7F6916320D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.xm */,
+				A7F6916420D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		A7F6913420D8ECB900231396 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6913520D8ECB900231396 /* MDConfigManager.h */,
+				A7F6913720D8ECB900231396 /* MDConfigManager.m */,
+				A7F6913920D8ECB900231396 /* MDCycriptManager.h */,
+				A7F6913B20D8ECB900231396 /* MDCycriptManager.m */,
+				A7F6913D20D8ECB900231396 /* MDMethodTrace.h */,
+				A7F6913F20D8ECB900231396 /* MDMethodTrace.m */,
+				A7F6914120D8ECB900231396 /* ANYMethodLog.h */,
+				A7F6914320D8ECB900231396 /* ANYMethodLog.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		A7F6914520D8ECB900231396 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6914620D8ECB900231396 /* LLDBTools.h */,
+				A7F6914820D8ECB900231396 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		A7F6914A20D8ECB900231396 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6914B20D8ECB900231396 /* YouShaQiDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F6914C20D8ECB900231396 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6914D20D8ECB900231396 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		A7F6914F20D8ECB900231396 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				A7F6915020D8ECB900231396 /* fishhook.c */,
+				A7F6915220D8ECB900231396 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7F6912220D8ECB900231396 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F6915520D8ECB900231396 /* YouShaQiDylib.h in Headers */,
+				A7F6913A20D8ECB900231396 /* MDCycriptManager.h in Headers */,
+				A7F6913E20D8ECB900231396 /* MDMethodTrace.h in Headers */,
+				A7F6914720D8ECB900231396 /* LLDBTools.h in Headers */,
+				A7F6913620D8ECB900231396 /* MDConfigManager.h in Headers */,
+				A7F6914220D8ECB900231396 /* ANYMethodLog.h in Headers */,
+				A7F6915320D8ECB900231396 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7F6911120D8ECB900231396 /* YouShaQi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F6915D20D8ECB900231396 /* Build configuration list for PBXNativeTarget "YouShaQi" */;
+			buildPhases = (
+				A7F6910B20D8ECB900231396 /* Sources */,
+				A7F6910C20D8ECB900231396 /* Frameworks */,
+				A7F6910D20D8ECB900231396 /* ShellScript */,
+				A7F6910E20D8ECB900231396 /* Resources */,
+				A7F6910F20D8ECB900231396 /* CopyFiles */,
+				A7F6911020D8ECB900231396 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F6912720D8ECB900231396 /* PBXTargetDependency */,
+			);
+			name = YouShaQi;
+			productName = YouShaQi;
+			productReference = A7F6911220D8ECB900231396 /* YouShaQi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7F6912320D8ECB900231396 /* YouShaQiDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F6915A20D8ECB900231396 /* Build configuration list for PBXNativeTarget "YouShaQiDylib" */;
+			buildPhases = (
+				A7F6911F20D8ECB900231396 /* ShellScript */,
+				A7F6912020D8ECB900231396 /* Sources */,
+				A7F6912120D8ECB900231396 /* Frameworks */,
+				A7F6912220D8ECB900231396 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouShaQiDylib;
+			productName = YouShaQiDylib;
+			productReference = A7F6912420D8ECB900231396 /* libYouShaQiDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F6910720D8ECB900231396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = lzackx;
+				TargetAttributes = {
+					A7F6911120D8ECB900231396 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A7F6912320D8ECB900231396 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A7F6910A20D8ECB900231396 /* Build configuration list for PBXProject "YouShaQi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7F6910620D8ECB900231396;
+			productRefGroup = A7F6911320D8ECB900231396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F6911120D8ECB900231396 /* YouShaQi */,
+				A7F6912320D8ECB900231396 /* YouShaQiDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F6910E20D8ECB900231396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F6911B20D8ECB900231396 /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7F6910D20D8ECB900231396 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh\n";
+		};
+		A7F6911020D8ECB900231396 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign\n";
+		};
+		A7F6911F20D8ECB900231396 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F6910B20D8ECB900231396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F6912020D8ECB900231396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F6913C20D8ECB900231396 /* MDCycriptManager.m in Sources */,
+				A7F6914420D8ECB900231396 /* ANYMethodLog.m in Sources */,
+				A7F6913820D8ECB900231396 /* MDConfigManager.m in Sources */,
+				A7F6916520D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.mm in Sources */,
+				A7F6914920D8ECB900231396 /* LLDBTools.mm in Sources */,
+				A7F6913320D8ECB900231396 /* YouShaQiDylib.mm in Sources */,
+				A7F6914020D8ECB900231396 /* MDMethodTrace.m in Sources */,
+				A7F6915120D8ECB900231396 /* fishhook.c in Sources */,
+				A7F6915720D8ECB900231396 /* YouShaQiDylib.m in Sources */,
+				A7F6914E20D8ECB900231396 /* AntiAntiDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7F6912720D8ECB900231396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F6912320D8ECB900231396 /* YouShaQiDylib */;
+			targetProxy = A7F6912620D8ECB900231396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7F6915820D8ECB900231396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7F6915920D8ECB900231396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7F6915B20D8ECB900231396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75MG4PTYQ8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouShaQiDylib/YouShaQiDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libYouShaQiDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"YouShaQiDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		A7F6915C20D8ECB900231396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 75MG4PTYQ8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouShaQiDylib/YouShaQiDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libYouShaQiDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"YouShaQiDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7F6915E20D8ECB900231396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = YouShaQi/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzackx.YouShaQi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7F6915F20D8ECB900231396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = YouShaQi/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzackx.YouShaQi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F6910A20D8ECB900231396 /* Build configuration list for PBXProject "YouShaQi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F6915820D8ECB900231396 /* Debug */,
+				A7F6915920D8ECB900231396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F6915A20D8ECB900231396 /* Build configuration list for PBXNativeTarget "YouShaQiDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F6915B20D8ECB900231396 /* Debug */,
+				A7F6915C20D8ECB900231396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F6915D20D8ECB900231396 /* Build configuration list for PBXNativeTarget "YouShaQi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F6915E20D8ECB900231396 /* Debug */,
+				A7F6915F20D8ECB900231396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7F6910720D8ECB900231396 /* Project object */;
+}
