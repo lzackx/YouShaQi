@@ -2,7 +2,7 @@
 
 This project is only meant for security research purposes, not for application crackers.
 
-1. can full screen on iPhone X
+1. Can full screen on iPhone X
 2. Can change source
 3. No Umeng track
 4. No Ads
