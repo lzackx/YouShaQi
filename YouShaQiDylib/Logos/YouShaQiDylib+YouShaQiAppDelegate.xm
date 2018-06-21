@@ -11,17 +11,13 @@
 %hook YouShaQiAppDelegate
 
 // MARK: Useless
+- (void)parameterInitial { }
+- (void)getVersionLimitConfig { }
 - (void)getSeverErrorConfig { }
 - (void)setupUmengTrack { }
 - (void)getUMengOnlineConfig { }
 - (void)uMengOnlineConfigCallBack:(id)arg1 { }
 - (void)updateUmengSpecialParams:(id)arg1 { }
-- (void)customAdUtilsInmobiSplashAdSucceed { }
-- (void)customAdUtilsBaiduSplashAdClicked:(id)arg1 { }
-- (void)customAdUtilsBaiduSplashAdSucceed:(id)arg1 { }
-- (void)customAdUtilsGDTSplashAdSucceed { }
-- (void)customAdUtilsGDTSplashAdStarted:(id)arg1 { }
-- (void)onClickNativeAd:(id)arg1 { }
 
 %end
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A708D74F20DB406A007D576A /* YouShaQiDylib+CustomAdUtils.xm in Resources */ = {isa = PBXBuildFile; fileRef = A708D74E20DB406A007D576A /* YouShaQiDylib+CustomAdUtils.xm */; };
+		A708D75120DB4084007D576A /* YouShaQiDylib+CustomAdUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = A708D75020DB4084007D576A /* YouShaQiDylib+CustomAdUtils.mm */; };
 		A7F6911B20D8ECB900231396 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7F6911A20D8ECB900231396 /* MDConfig.plist */; };
 		A7F6912520D8ECB900231396 /* libYouShaQiDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7F6912420D8ECB900231396 /* libYouShaQiDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A7F6912A20D8ECB900231396 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F6912920D8ECB900231396 /* JavaScriptCore.framework */; };
@@ -55,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A708D74E20DB406A007D576A /* YouShaQiDylib+CustomAdUtils.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "YouShaQiDylib+CustomAdUtils.xm"; path = "Logos/YouShaQiDylib+CustomAdUtils.xm"; sourceTree = "<group>"; };
+		A708D75020DB4084007D576A /* YouShaQiDylib+CustomAdUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "YouShaQiDylib+CustomAdUtils.mm"; path = "Logos/YouShaQiDylib+CustomAdUtils.mm"; sourceTree = "<group>"; };
 		A7F6911220D8ECB900231396 /* YouShaQi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouShaQi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F6911520D8ECB900231396 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		A7F6911620D8ECB900231396 /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
@@ -197,6 +201,8 @@
 				A7F6913220D8ECB900231396 /* YouShaQiDylib.mm */,
 				A7F6916320D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.xm */,
 				A7F6916420D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.mm */,
+				A708D74E20DB406A007D576A /* YouShaQiDylib+CustomAdUtils.xm */,
+				A708D75020DB4084007D576A /* YouShaQiDylib+CustomAdUtils.mm */,
 			);
 			name = Logos;
 			sourceTree = "<group>";
@@ -349,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A708D74F20DB406A007D576A /* YouShaQiDylib+CustomAdUtils.xm in Resources */,
 				A7F6911B20D8ECB900231396 /* MDConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +434,7 @@
 				A7F6916520D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.mm in Sources */,
 				A7F6914920D8ECB900231396 /* LLDBTools.mm in Sources */,
 				A7F6913320D8ECB900231396 /* YouShaQiDylib.mm in Sources */,
+				A708D75120DB4084007D576A /* YouShaQiDylib+CustomAdUtils.mm in Sources */,
 				A7F6914020D8ECB900231396 /* MDMethodTrace.m in Sources */,
 				A7F6915120D8ECB900231396 /* fishhook.c in Sources */,
 				A7F6915720D8ECB900231396 /* YouShaQiDylib.m in Sources */,
@@ -559,7 +567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 75MG4PTYQ8;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -621,7 +629,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 75MG4PTYQ8;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -681,9 +689,9 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YouShaQi/Info.plist;
 				MONKEYDEV_ADD_SUBSTRATE = YES;
-				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_CLASS_DUMP = YES;
 				MONKEYDEV_INSERT_DYLIB = YES;
-				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_RESTORE_SYMBOL = YES;
 				MONKEYDEV_TARGET_APP = Optional;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
@@ -701,9 +709,9 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YouShaQi/Info.plist;
 				MONKEYDEV_ADD_SUBSTRATE = YES;
-				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_CLASS_DUMP = YES;
 				MONKEYDEV_INSERT_DYLIB = YES;
-				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_RESTORE_SYMBOL = YES;
 				MONKEYDEV_TARGET_APP = Optional;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
