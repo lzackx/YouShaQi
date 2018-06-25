@@ -58,3 +58,20 @@
 }
 
 %end
+
+%hook __NSCFString
+
+- (void)replaceCharactersInRange:(NSRange)range withString:(NSString *)aString {
+    
+//    NSLog(@"location: %lu, length: %lu", range.location, range.length);
+//    NSLog(@"aString: %@, length: %lu", aString, aString.length);
+//    NSLog(@"aString location: %lu, length: %lu", NSRangeFromString(aString).location, NSRangeFromString(aString).length);
+    if (range.length > aString.length ) {
+        range.length = aString.length;
+        %orig(range, aString);
+        return;
+    }
+    %orig;
+}
+
+%end

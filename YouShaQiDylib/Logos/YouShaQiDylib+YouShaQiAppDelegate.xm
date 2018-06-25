@@ -14,6 +14,7 @@
 - (void)parameterInitial { }
 - (void)getVersionLimitConfig { }
 - (void)getSeverErrorConfig { }
+- (void)setupIFlySDK { }
 - (void)setupUmengTrack { }
 - (void)getUMengOnlineConfig { }
 - (void)uMengOnlineConfigCallBack:(id)arg1 { }
