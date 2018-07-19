@@ -6,4 +6,4 @@ This project is only meant for security research purposes, not for application c
 2. Can change source
 3. No Umeng track
 4. No Ads
-5. No upgrade alert
+5. No upgrade prompt
