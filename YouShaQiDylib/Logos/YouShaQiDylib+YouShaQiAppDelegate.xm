@@ -11,6 +11,12 @@
 %hook YouShaQiAppDelegate
 
 // MARK: Useless
+- (void)remoteControlReceivedWithEvent:(id)arg1 { }
+- (void)showRemoteNotification:(id)arg1 { }
+- (void)application:(id)arg1 didReceiveRemoteNotification:(id)arg2 { }
+- (void)application:(id)arg1 didFailToRegisterForRemoteNotificationsWithError:(id)arg2 { }
+- (void)application:(id)arg1 didRegisterForRemoteNotificationsWithDeviceToken:(id)arg2 { }
+- (void)application:(id)arg1 didRegisterUserNotificationSettings:(id)arg2 { }
 - (void)parameterInitial { }
 - (void)getVersionLimitConfig { }
 - (void)getSeverErrorConfig { }
