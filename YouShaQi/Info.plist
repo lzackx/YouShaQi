@@ -12,9 +12,7 @@
 	<string>YouShaQi</string>
 	<key>CFBundleIconFiles</key>
 	<array>
-		<string>Icon.png</string>
-		<string>Icon_114@2x.png</string>
-		<string>Default@2x.png</string>
+		<string>YouShaQi/icon.png</string>
 	</array>
 	<key>CFBundleIcons</key>
 	<dict>

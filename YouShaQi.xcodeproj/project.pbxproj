@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A708D74F20DB406A007D576A /* YouShaQiDylib+CustomAdUtils.xm in Resources */ = {isa = PBXBuildFile; fileRef = A708D74E20DB406A007D576A /* YouShaQiDylib+CustomAdUtils.xm */; };
 		A708D75120DB4084007D576A /* YouShaQiDylib+CustomAdUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = A708D75020DB4084007D576A /* YouShaQiDylib+CustomAdUtils.mm */; };
+		A71CA4DB2192C708002F9422 /* YouShaQiDylib+ReadingToolsView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A71CA4DA2192C708002F9422 /* YouShaQiDylib+ReadingToolsView.mm */; };
 		A7F6911B20D8ECB900231396 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7F6911A20D8ECB900231396 /* MDConfig.plist */; };
 		A7F6912520D8ECB900231396 /* libYouShaQiDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7F6912420D8ECB900231396 /* libYouShaQiDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A7F6912A20D8ECB900231396 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F6912920D8ECB900231396 /* JavaScriptCore.framework */; };
@@ -59,6 +60,8 @@
 /* Begin PBXFileReference section */
 		A708D74E20DB406A007D576A /* YouShaQiDylib+CustomAdUtils.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "YouShaQiDylib+CustomAdUtils.xm"; path = "Logos/YouShaQiDylib+CustomAdUtils.xm"; sourceTree = "<group>"; };
 		A708D75020DB4084007D576A /* YouShaQiDylib+CustomAdUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "YouShaQiDylib+CustomAdUtils.mm"; path = "Logos/YouShaQiDylib+CustomAdUtils.mm"; sourceTree = "<group>"; };
+		A71CA4D82192C49A002F9422 /* YouShaQiDylib+ReadingToolsView.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "YouShaQiDylib+ReadingToolsView.xm"; path = "Logos/YouShaQiDylib+ReadingToolsView.xm"; sourceTree = "<group>"; };
+		A71CA4DA2192C708002F9422 /* YouShaQiDylib+ReadingToolsView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "YouShaQiDylib+ReadingToolsView.mm"; path = "Logos/YouShaQiDylib+ReadingToolsView.mm"; sourceTree = "<group>"; };
 		A7F6911220D8ECB900231396 /* YouShaQi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouShaQi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F6911520D8ECB900231396 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		A7F6911620D8ECB900231396 /* Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Target.plist; sourceTree = "<group>"; };
@@ -70,7 +73,7 @@
 		A7F6912920D8ECB900231396 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		A7F6912B20D8ECB900231396 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7F6912D20D8ECB900231396 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A7F6913120D8ECB900231396 /* YouShaQiDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = YouShaQiDylib.xm; path = Logos/YouShaQiDylib.xm; sourceTree = "<group>"; };
+		A7F6913120D8ECB900231396 /* YouShaQiDylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = YouShaQiDylib.xm; path = Logos/YouShaQiDylib.xm; sourceTree = "<group>"; };
 		A7F6913220D8ECB900231396 /* YouShaQiDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = YouShaQiDylib.mm; path = Logos/YouShaQiDylib.mm; sourceTree = "<group>"; };
 		A7F6913520D8ECB900231396 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
 		A7F6913720D8ECB900231396 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
@@ -203,6 +206,8 @@
 				A7F6916420D8EF5B00231396 /* YouShaQiDylib+YouShaQiAppDelegate.mm */,
 				A708D74E20DB406A007D576A /* YouShaQiDylib+CustomAdUtils.xm */,
 				A708D75020DB4084007D576A /* YouShaQiDylib+CustomAdUtils.mm */,
+				A71CA4D82192C49A002F9422 /* YouShaQiDylib+ReadingToolsView.xm */,
+				A71CA4DA2192C708002F9422 /* YouShaQiDylib+ReadingToolsView.mm */,
 			);
 			name = Logos;
 			sourceTree = "<group>";
@@ -428,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71CA4DB2192C708002F9422 /* YouShaQiDylib+ReadingToolsView.mm in Sources */,
 				A7F6913C20D8ECB900231396 /* MDCycriptManager.m in Sources */,
 				A7F6914420D8ECB900231396 /* ANYMethodLog.m in Sources */,
 				A7F6913820D8ECB900231396 /* MDConfigManager.m in Sources */,

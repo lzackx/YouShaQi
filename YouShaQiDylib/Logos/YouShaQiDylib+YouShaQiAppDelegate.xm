@@ -11,7 +11,6 @@
 %hook YouShaQiAppDelegate
 
 // MARK: Useless
-- (void)remoteControlReceivedWithEvent:(id)arg1 { }
 - (void)showRemoteNotification:(id)arg1 { }
 - (void)application:(id)arg1 didReceiveRemoteNotification:(id)arg2 { }
 - (void)application:(id)arg1 didFailToRegisterForRemoteNotificationsWithError:(id)arg2 { }
